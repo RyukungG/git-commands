@@ -232,6 +232,7 @@ test/
 6. Describe under what conditions a merge may fail.
    ```
    you have committed changes that conflict with other committed changes.
+
    ```
 
 
@@ -240,13 +241,24 @@ test/
 ## Favorites
 
 > TODO: Add *at least* 1 git task that (a) that you'd like to remember, or (b) you think is really useful, and the git command(s) to do it.
+```
+Display the differences between your working copy and local repository:
+git diff <file name>
 
+Display the differences between files in the staging area and the versions in the repository:
+git diff --staged
+
+Show the history including all branches in the repository and include a graph connecting the commits:
+git log --all --graph
+```
 
 
 ---
 ## Resources
 
 > TODO: Add your favorite Git resources (at least 1)
+[Git and GitHub Basics][Git-and-GitHub-Basics] Learn about version control systems and practice using Git and GitHub.
+[atlassian bitbucket][atlassian] Simple Github fundamentals
 
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
 [Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
@@ -263,3 +275,5 @@ Try Git:
 [markdown-cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [vscode-markdown-preview-enhanced]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+[Git-and-GitHub-Basics]: https://trailhead.salesforce.com/content/learn/modules/git-and-git-hub-basics
+[atlassian]: https://www.atlassian.com/git/tutorials/setting-up-a-repository
