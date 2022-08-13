@@ -70,41 +70,57 @@ test/
     test_a.py
     ...
 ```     
-> TODO: Write the git command to perform each of these:
 
 1. Add README.md and *everything* in the `src` directory to the git staging area.
    ```
-   todo  your answer here
+   git add README.md src/
    ```
 
 2. Add `test/test_a.py` to the staging area (but not any other files).
    ```
-   todo  your answer here
+   git add ./test/test_a.py
    ```
 
 3. List the files in the staging area.
-
+   ```
+   git status
+   ```
 
 4. Remove `README.md` from the staging area. (Useful if you accidentally add something you don't want to commit.)
+   ```
+   git reset HEAD README.md
+   ```
 
 
 5. Commit everything in the staging area to the repository.
-
+   ```
+   git commit -m "commit message"
+   ```
 
 6. Describe 2 steps to configure the repository so git will ignore all files in the `out/` directory:
-   - step one
-   - step two
-
+   ```
+   - step one: Create a .gitignore file in repository's root directory  
+   - step two: Add a new line in the file which states 'out/'
+   ```
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
-
+   ```
+   git mv ./src/* .
+   ```
 
 8. Commit this change with the message "moved src directory":
-
+   ```
+   git commit -m 'moved src directory'
+   ```
 
 9. Command to add **all changed files** (but not untracked files) to the staging area using a single command.
-
+   ```
+   git add -u
+   ```
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
+    ```
+    git rm src/c.py
+    ```
 
 
 
