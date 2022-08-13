@@ -17,13 +17,13 @@
 
 > TODO: Create a table of contents here.  Each line should be a clickable link to each part of this document or another file containing the questions and answers. One item per line.
 
-[Basics](#basics)    
-[Adding and Changing Things](#adding-and-changing-things)    
-[Next Section (todo: Fix This)](#next-section)    
-[Next Section (todo: Fix This)](#next-next-section)    
-[Commands for Remotes](remote-commands.md)   
-[Favorites](#favorites)     
-[Resources](#resources)
+- [Basics](#basics)    
+- [Adding and Changing Things](#adding-and-changing-things)    
+- [Next Section (todo: Fix This)](#next-section)    
+- [Next Section (todo: Fix This)](#next-next-section)    
+- [Commands for Remotes](remote-commands.md)   
+- [Favorites](#favorites)     
+- [Resources](#resources)
 
 #### Note on Paths
 
@@ -33,24 +33,27 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 ## Basics
 
 1. When using Git locally, what are these?  Define each one in a sentence
-   * Staging area -
-   * Working copy -
-   * master -
-   * HEAD -
-
+   ```
+   * Staging area - Staging area is the area that files and changes marked for commit.
+   * Working copy - Working copy is the copy of files you work on.
+   * master - The master branch is that of the reference repository to which the dictator pushes.
+   * HEAD - HEAD is a pointer that show what branch you’re currently on.
+   ```
 2. When you install git on a new machine (or in a new user account) you should perform these 2 git commands to tell git your name and email.  These values are used in commits that you make:
    ```
-   # Git configuration commands for a new account
-
-
+   git config --global user.name "Your Name"
+   git config --global user.email "Your email"
    ```
 
 3. There are 2 ways to create a local Git repository.  What are they?
-   - todo: briefly describe first way
-   - todo: briefly describe second way
-
+   ```
+   - Use git init to create a repository in the directory that you want.
+   - Clone a remote repo to your current directory.
+   ```
 4. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
-
+   ```
+   It is located in the directory where git init is entered.
+   ```
 
 
 ## Adding and Changing Things
