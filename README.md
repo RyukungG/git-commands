@@ -15,8 +15,6 @@
 
 ## Using Git
 
-> TODO: Create a table of contents here.  Each line should be a clickable link to each part of this document or another file containing the questions and answers. One item per line.
-
 - [Basics](#basics)    
 - [Adding and Changing Things](#adding-and-changing-things)    
 - [Undo Changes and Recover Files](#Undo-Changes-and-Recover-Files)    
@@ -240,7 +238,6 @@ test/
 
 ## Favorites
 
-> TODO: Add *at least* 1 git task that (a) that you'd like to remember, or (b) you think is really useful, and the git command(s) to do it.
 ```
 Display the differences between your working copy and local repository:
 git diff <file name>
@@ -256,8 +253,7 @@ git log --all --graph
 ---
 ## Resources
 
-> TODO: Add your favorite Git resources (at least 1)
-[Git and GitHub Basics][Git-and-GitHub-Basics] Learn about version control systems and practice using Git and GitHub.
+[Git and GitHub Basics][Git-and-GitHub-Basics] Learn about version control systems and practice using Git and GitHub.   
 [atlassian bitbucket][atlassian] Simple Github fundamentals
 
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
