@@ -176,11 +176,13 @@ test/
    Some versions of git have an *alias* "log1" for this (`git log1`).
 
 2. Show the history (as above) including *all* branches in the repository and include a graph connecting the commits:
-
+   ```
+   git log --all --graph
+   ```
 
 3. List all the files in the current branch of the repository:
    ```
-   todo your answer
+   git ls-files
    ```
    example output:
    ```
@@ -195,28 +197,42 @@ test/
 
 ## Branch and Merge
 
-> TODO write the commands to do each of these
 1. Create a new branch named `dev-foo`:
- 
+   ```
+   git brach dev-foo
+   ```
 2. Display the name of your current branch:
+   ```
+   git branch
+   ```
 
 3. List the names of **all** branches, including remote branches:
+   ```
+   git branch -a
+   ```
 
 4. Switch your working copy to the branch named `dev-foo`:
+   ```
+   git checkout dev-foo
+   ```
 
 5. **Merge:** To merge the work from `dev-foo` into the master branch, perform these steps:
-   > TODO: write a description of the steps and the git command(s) for each step
    1. step one
       ```
-      git do something
+      Move the HEAD to the master branch by using:
+      git checkout master
       ```
    2. step two
       ```
-      git do something else
+      Merge the branch dev-foo to the master branch by using:
+      git merge dev-foo
       ```
 
 
 6. Describe under what conditions a merge may fail.
+   ```
+   you have committed changes that conflict with other committed changes.
+   ```
 
 
 
