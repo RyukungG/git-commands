@@ -1,5 +1,6 @@
 ## Using Git
 
+### Table of Contents
 - [Basics](#basics)    
 - [Adding and Changing Things](#adding-and-changing-things)    
 - [Undo Changes and Recover Files](#Undo-Changes-and-Recover-Files)    
