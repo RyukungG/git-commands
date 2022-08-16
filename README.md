@@ -87,7 +87,7 @@ test/
    ```
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
    ```
-   git mv ./src/* .
+   git mv ./src/*.py .
    ```
 
 8. Commit this change with the message "moved src directory":
@@ -108,9 +108,9 @@ test/
 
 ## Undo Changes and Recover Files
 
-1.  Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
+1. Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
       ```
-      git diff a.py
+      git diff HEAD a.py
       ```
 
 2. Display the differences between your *working copy* of `a.py` and the version in the *staging area*. (But, if a.py is not in the staging area this will compare working copy to HEAD revision):
